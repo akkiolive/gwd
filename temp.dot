@@ -1,0 +1,107 @@
+digraph G { 
+    graph [rankdir=LR]
+    node []
+    
+    dwg0 [ shape=record, label="dwg0|{{<ram14>ram14|<ram19>ram19|<ram2>ram2|<ram23>ram23|<ram35>ram35|<ram37>ram37}||{<ram0>ram0}}" id="dwg0"]
+dwg1 [ shape=record, label="dwg1|{{<ram16>ram16|<ram27>ram27|<ram36>ram36|<ram41>ram41|<ram6>ram6|<ram7>ram7}||{<ram1>ram1}}" id="dwg1"]
+dwg2 [ shape=record, label="dwg2|{{<ram32>ram32|<ram36>ram36|<ram4>ram4|<ram46>ram46}||{<ram2>ram2}}" id="dwg2"]
+dwg3 [ shape=record, label="dwg3|{{<ram10>ram10|<ram18>ram18|<ram19>ram19|<ram33>ram33|<ram36>ram36|<ram48>ram48}||{<ram3>ram3}}" id="dwg3"]
+dwg4 [ shape=record, label="dwg4|{{<ram11>ram11|<ram20>ram20|<ram36>ram36|<ram48>ram48|<ram6>ram6}||{<ram4>ram4}}" id="dwg4"]
+dwg5 [ shape=record, label="dwg5|{{<ram10>ram10|<ram28>ram28|<ram30>ram30|<ram38>ram38|<ram40>ram40|<ram45>ram45}||{<ram5>ram5}}" id="dwg5"]
+dwg6 [ shape=record, label="dwg6|{{<ram15>ram15|<ram29>ram29|<ram48>ram48|<ram9>ram9}||{<ram6>ram6}}" id="dwg6"]
+dwg7 [ shape=record, label="dwg7|{{<ram11>ram11|<ram12>ram12|<ram26>ram26|<ram44>ram44}||{<ram7>ram7}}" id="dwg7"]
+dwg8 [ shape=record, label="dwg8|{{<ram34>ram34|<ram37>ram37|<ram43>ram43}||{<ram8>ram8}}" id="dwg8"]
+dwg9 [ shape=record, label="dwg9|{{<ram14>ram14|<ram20>ram20|<ram26>ram26|<ram34>ram34}||{<ram9>ram9}}" id="dwg9"]
+dwg10 [ shape=record, label="dwg10|{{}||{<ram10>ram10}}" id="dwg10"]
+dwg11 [ shape=record, label="dwg11|{{}||{<ram11>ram11}}" id="dwg11"]
+dwg12 [ shape=record, label="dwg12|{{}||{<ram12>ram12}}" id="dwg12"]
+dwg13 [ shape=record, label="dwg13|{{}||{<ram13>ram13}}" id="dwg13"]
+dwg14 [ shape=record, label="dwg14|{{}||{<ram14>ram14}}" id="dwg14"]
+dwg15 [ shape=record, label="dwg15|{{}||{<ram15>ram15}}" id="dwg15"]
+dwg16 [ shape=record, label="dwg16|{{}||{<ram16>ram16}}" id="dwg16"]
+dwg17 [ shape=record, label="dwg17|{{}||{<ram17>ram17}}" id="dwg17"]
+dwg18 [ shape=record, label="dwg18|{{}||{<ram18>ram18}}" id="dwg18"]
+dwg19 [ shape=record, label="dwg19|{{}||{<ram19>ram19}}" id="dwg19"]
+dwg20 [ shape=record, label="dwg20|{{}||{<ram20>ram20}}" id="dwg20"]
+dwg21 [ shape=record, label="dwg21|{{}||{<ram21>ram21}}" id="dwg21"]
+dwg22 [ shape=record, label="dwg22|{{}||{<ram22>ram22}}" id="dwg22"]
+dwg23 [ shape=record, label="dwg23|{{}||{<ram23>ram23}}" id="dwg23"]
+dwg24 [ shape=record, label="dwg24|{{}||{<ram24>ram24}}" id="dwg24"]
+dwg25 [ shape=record, label="dwg25|{{}||{<ram25>ram25}}" id="dwg25"]
+dwg26 [ shape=record, label="dwg26|{{}||{<ram26>ram26}}" id="dwg26"]
+dwg27 [ shape=record, label="dwg27|{{}||{<ram27>ram27}}" id="dwg27"]
+dwg28 [ shape=record, label="dwg28|{{}||{<ram28>ram28}}" id="dwg28"]
+dwg29 [ shape=record, label="dwg29|{{}||{<ram29>ram29}}" id="dwg29"]
+dwg30 [ shape=record, label="dwg30|{{}||{<ram30>ram30}}" id="dwg30"]
+dwg31 [ shape=record, label="dwg31|{{}||{<ram31>ram31}}" id="dwg31"]
+dwg32 [ shape=record, label="dwg32|{{}||{<ram32>ram32}}" id="dwg32"]
+dwg33 [ shape=record, label="dwg33|{{}||{<ram33>ram33}}" id="dwg33"]
+dwg34 [ shape=record, label="dwg34|{{}||{<ram34>ram34}}" id="dwg34"]
+dwg35 [ shape=record, label="dwg35|{{}||{<ram35>ram35}}" id="dwg35"]
+dwg36 [ shape=record, label="dwg36|{{}||{<ram36>ram36}}" id="dwg36"]
+dwg37 [ shape=record, label="dwg37|{{}||{<ram37>ram37}}" id="dwg37"]
+dwg38 [ shape=record, label="dwg38|{{}||{<ram38>ram38}}" id="dwg38"]
+dwg39 [ shape=record, label="dwg39|{{}||{<ram39>ram39}}" id="dwg39"]
+dwg40 [ shape=record, label="dwg40|{{}||{<ram40>ram40}}" id="dwg40"]
+dwg41 [ shape=record, label="dwg41|{{}||{<ram41>ram41}}" id="dwg41"]
+dwg42 [ shape=record, label="dwg42|{{}||{<ram42>ram42}}" id="dwg42"]
+dwg43 [ shape=record, label="dwg43|{{}||{<ram43>ram43}}" id="dwg43"]
+dwg44 [ shape=record, label="dwg44|{{}||{<ram44>ram44}}" id="dwg44"]
+dwg45 [ shape=record, label="dwg45|{{}||{<ram45>ram45}}" id="dwg45"]
+dwg46 [ shape=record, label="dwg46|{{}||{<ram46>ram46}}" id="dwg46"]
+dwg47 [ shape=record, label="dwg47|{{}||{<ram47>ram47}}" id="dwg47"]
+dwg48 [ shape=record, label="dwg48|{{}||{<ram48>ram48}}" id="dwg48"]
+dwg49 [ shape=record, label="dwg49|{{}||{<ram49>ram49}}" id="dwg49"]
+
+    
+    dwg2:ram2 -> dwg0:ram2
+dwg4:ram4 -> dwg2:ram4
+dwg6:ram6 -> dwg1:ram6
+dwg6:ram6 -> dwg4:ram6
+dwg7:ram7 -> dwg1:ram7
+dwg9:ram9 -> dwg6:ram9
+dwg10:ram10 -> dwg3:ram10
+dwg10:ram10 -> dwg5:ram10
+dwg11:ram11 -> dwg4:ram11
+dwg11:ram11 -> dwg7:ram11
+dwg12:ram12 -> dwg7:ram12
+dwg14:ram14 -> dwg0:ram14
+dwg14:ram14 -> dwg9:ram14
+dwg15:ram15 -> dwg6:ram15
+dwg16:ram16 -> dwg1:ram16
+dwg18:ram18 -> dwg3:ram18
+dwg19:ram19 -> dwg0:ram19
+dwg19:ram19 -> dwg3:ram19
+dwg20:ram20 -> dwg4:ram20
+dwg20:ram20 -> dwg9:ram20
+dwg23:ram23 -> dwg0:ram23
+dwg26:ram26 -> dwg7:ram26
+dwg26:ram26 -> dwg9:ram26
+dwg27:ram27 -> dwg1:ram27
+dwg28:ram28 -> dwg5:ram28
+dwg29:ram29 -> dwg6:ram29
+dwg30:ram30 -> dwg5:ram30
+dwg32:ram32 -> dwg2:ram32
+dwg33:ram33 -> dwg3:ram33
+dwg34:ram34 -> dwg8:ram34
+dwg34:ram34 -> dwg9:ram34
+dwg35:ram35 -> dwg0:ram35
+dwg36:ram36 -> dwg1:ram36
+dwg36:ram36 -> dwg2:ram36
+dwg36:ram36 -> dwg3:ram36
+dwg36:ram36 -> dwg4:ram36
+dwg37:ram37 -> dwg0:ram37
+dwg37:ram37 -> dwg8:ram37
+dwg38:ram38 -> dwg5:ram38
+dwg40:ram40 -> dwg5:ram40
+dwg41:ram41 -> dwg1:ram41
+dwg43:ram43 -> dwg8:ram43
+dwg44:ram44 -> dwg7:ram44
+dwg45:ram45 -> dwg5:ram45
+dwg46:ram46 -> dwg2:ram46
+dwg48:ram48 -> dwg3:ram48
+dwg48:ram48 -> dwg4:ram48
+dwg48:ram48 -> dwg6:ram48
+
+    
+}

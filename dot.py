@@ -4,7 +4,7 @@
 import pydot
 
 # read file
-with open("rams_output.csv", encoding="utf8") as f:
+with open("dummy.csv", encoding="utf8") as f:
     lines = f.read().split("\n")
 
 # class definition
@@ -142,7 +142,7 @@ edges_str = ""
 # make nodes
 for dwg_name in dwgs:
     dwg = dwgs[dwg_name]
-    node = f"{dwg.node_name} [ shape=record, label=\"{dwg.name}|{{{{{dwg.record_ext}}}||{{{dwg.record_pub}}}}}\" ]"
+    node = f"{dwg.node_name} [ shape=record, label=\"{dwg.name}|{{{{{dwg.record_ext}}}||{{{dwg.record_pub}}}}}\" id=\"{dwg.node_name}\"]"
     nodes_str += node + "\n"
 
     print(node)
@@ -157,7 +157,7 @@ for ram_name in rams:
             edges_str += edge_str + "\n"
 
 # make dot dataa
-dot_data = "Digraph G { "  +"\n"\
+dot_data = "digraph G { "  +"\n"\
          + "    graph [rankdir=LR]"  +"\n"\
          + "    node []"  +"\n"\
          + "    " +"\n"\
@@ -166,6 +166,10 @@ dot_data = "Digraph G { "  +"\n"\
          +f"    {edges_str}"  +"\n"\
          + "    "  +"\n"\
          + "}"
+
+
+with open("temp.dot", "w") as f:
+    f.write(dot_data)
 
 print(dot_data)
 
